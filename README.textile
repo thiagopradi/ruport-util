@@ -1,4 +1,4 @@
-== What is it?
+h2. What is it?
 
 ruport-util provides a home for marooned former parts of Ruby Reports,
 and newer fringe ideas.
@@ -18,26 +18,34 @@ Support as of 2007.08.28:
 
 See example/ for more information
 
-== Getting Ruport
+h2. Getting Ruport
 
 To use ruport-util >= 0.8.0, you'll need Ruport >= 1.2.0
 
+  <pre><code>
   sudo gem install ruport -y
+  </pre></code>
 
-== Installing ruport-util
+
+h2. Installing ruport-util
 
 It's on RubyForge:
-
-  gem install ruport-util -y
-
-== Using
   
+  <pre><code>
+  gem install ruport-util -y
+  </pre></code>
+
+
+h2. Using
+
+  <pre><code>
   require "ruport"
   require "ruport/util"
-
   # then just use whatever tools you want.
+  </pre></code>
 
-== Help?
-   
+h2. Help? 
+
+ 
 Please report any problems on the Ruport mailing list:
 http://list.rubyreports.org
