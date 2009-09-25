@@ -59,9 +59,9 @@ module Ruport
       col = 0
       values.each do |value|
         if style
-          @worksheet.write(@xls_row, col, value, style)
+          @worksheet.write(@xls_row, col, value.to_s, style)
         else
-          @worksheet.write(@xls_row, col, value)
+          @worksheet.write(@xls_row, col, value.to_s)
         end
         col += 1
       end
